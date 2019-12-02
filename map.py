@@ -28,4 +28,4 @@ for line in sys.stdin:
             print(f'{elem}\t({key});({t})')
             t = None
         else:
-            print(f'{elem}\t({key})')
+            print(f'{elem}\t({key});()')
