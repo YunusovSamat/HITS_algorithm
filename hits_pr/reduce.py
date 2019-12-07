@@ -10,6 +10,7 @@ for line in sys.stdin:
         print(f'{last_key}\t{graph};{auth}')
         if '(' in values:
             graph = values
+            auth = 0
         else:
             auth = int(values)
     else:
